@@ -23,7 +23,29 @@ This is my personal reference / infodump / cheatsheet for translating the concep
 
 ### In Ruby:
 
+Variables are simply assigned with the equals sign.
+
+> `cat = 'Rufus'`
+
 ### In Javascript:
+
+There are three ways of assigning variables
+
+Old style variable assignment using `var` creates a variable which is mutable and, by default, globally accessible. 
+
+> `var dog = 'Mable'`
+
+New style variable assignment uses `const` and `let` are only accesible from the scope in which they are defined.
+
+`const` can not be reassigned after is is created, try to use it unless you _need_ to do so
+
+> `const sphereEulerCharacteristic = 2`
+
+but `let` can be reassigned any time within its scope
+
+> `let childHeight = 160`
+
+
 
 #
 
