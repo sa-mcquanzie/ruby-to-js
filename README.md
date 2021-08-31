@@ -17,42 +17,48 @@ This is my personal reference / infodump / cheatsheet for translating the concep
 5. Methods
 5. Classes
 
----
+#
+
 ## 1. Variables
 
 ### In Ruby:
 
 ### In Javascript:
 
----
+#
+
 ## 2. Conditionals
 
 ### In Ruby:
 
 ### In Javascript:
 
----
+#
+
 ## 3. Loops
 
 ### In Ruby:
 
 ### In Javascript:
 
----
+#
+
 ## 4. Iteration
 
 ### In Ruby:
 
 ### In Javascript:
 
----
+#
+
 ## 5. Methods
 
 ### In Ruby:
 
 ### In Javascript:
 
----
+#
+
 ## 6. Classes
 
 ### In Ruby:
