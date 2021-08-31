@@ -7,7 +7,10 @@ This is my personal reference / infodump / cheatsheet for translating the concep
 1. [Variables](#Variables)
 2. [Conditionals](#Conditionals)
     * If
+    * Else
+    * Else If
     * Unless
+    * Case
 3. [Loops](#Loops)
     * While
     * Until
@@ -26,7 +29,9 @@ This is my personal reference / infodump / cheatsheet for translating the concep
 
 Variables are simply assigned with the equals sign. By default variables are only available within the scope under which they were defined, and can be reassigned whenever within that scope.
 
-> `cat = 'Rufus'`
+```
+cat = 'Rufus'
+```
 
 ### In Javascript:
 
@@ -34,17 +39,23 @@ There are three ways of assigning variables
 
 Old style variable assignment using `var` creates a variable which is mutable and, by default, globally accessible. 
 
-> `var dog = 'Mable'`
+```
+var dog = 'Mable'
+```
 
 New style variable assignment uses the keywords `const` and `let` and these variables are only accesible from the scope in which they are defined.
 
 `const` can not be reassigned after is is created, try to use it unless you _need_ to do so
 
-> `const sphereEulerCharacteristic = 2`
+```
+const sphereEulerCharacteristic = 2
+```
 
 but `let` can be reassigned any time within its scope, this is the closest thing in Javascript to a plain Ruby variable
 
-> `let childHeight = 160`
+```
+let childHeight = 160
+```
 
 
 
@@ -54,6 +65,21 @@ but `let` can be reassigned any time within its scope, this is the closest thing
 ## Conditionals
 
 ### In Ruby:
+
+The conditional keywords in Ruby are `if`, `else`, `elsif`, and `unless`
+
+A conditional statement is opened using `if` or `unless` and closed with the `end` keyword.
+
+```
+if time == morning
+  meal = breakfast
+elsif time == noon
+  meal = lunch
+else
+  meal = dinner
+end
+```
+
 
 ### In Javascript:
 
