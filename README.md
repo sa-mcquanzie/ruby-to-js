@@ -3,7 +3,6 @@
 This is my personal reference / infodump / cheatsheet for translating the concepts and techniques I have learned in Ruby to Javascript
 
 ## Contents
----
 
 1. Variables
 2. Conditionals
@@ -20,7 +19,6 @@ This is my personal reference / infodump / cheatsheet for translating the concep
 
 ---
 ## 1. Variables
----
 
 ### In Ruby:
 
@@ -28,7 +26,6 @@ This is my personal reference / infodump / cheatsheet for translating the concep
 
 ---
 ## 2. Conditionals
----
 
 ### In Ruby:
 
@@ -36,7 +33,6 @@ This is my personal reference / infodump / cheatsheet for translating the concep
 
 ---
 ## 3. Loops
----
 
 ### In Ruby:
 
@@ -44,7 +40,6 @@ This is my personal reference / infodump / cheatsheet for translating the concep
 
 ---
 ## 4. Iteration
----
 
 ### In Ruby:
 
@@ -52,7 +47,6 @@ This is my personal reference / infodump / cheatsheet for translating the concep
 
 ---
 ## 5. Methods
----
 
 ### In Ruby:
 
@@ -60,7 +54,6 @@ This is my personal reference / infodump / cheatsheet for translating the concep
 
 ---
 ## 6. Classes
----
 
 ### In Ruby:
 
