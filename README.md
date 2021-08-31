@@ -4,7 +4,7 @@ This is my personal reference / infodump / cheatsheet for translating the concep
 
 ## Contents
 
-1. Variables
+1. [Variables](#Variables)
 2. Conditionals
     * If
     * Unless
@@ -19,7 +19,8 @@ This is my personal reference / infodump / cheatsheet for translating the concep
 
 #
 
-## 1. Variables
+## 1.
+## Variables
 
 ### In Ruby:
 
