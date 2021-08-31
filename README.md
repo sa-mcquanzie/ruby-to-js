@@ -5,21 +5,21 @@ This is my personal reference / infodump / cheatsheet for translating the concep
 ## Contents
 
 1. [Variables](#Variables)
-2. Conditionals
+2. [Conditionals](#Conditionals)
     * If
     * Unless
-3. Loops
+3. [Loops](#Loops)
     * While
     * Until
-4. Iteration
+4. [Iteration](#Iteration)
     * Each
     * Map
-5. Methods
-5. Classes
+5. [Methods](#Methods)
+6. [Classes](#Classes)
 
 #
 
-## 1.
+### 1.
 ## Variables
 
 ### In Ruby:
@@ -50,7 +50,8 @@ but `let` can be reassigned any time within its scope, this is the closest thing
 
 #
 
-## 2. Conditionals
+### 2.
+## Conditionals
 
 ### In Ruby:
 
@@ -58,7 +59,8 @@ but `let` can be reassigned any time within its scope, this is the closest thing
 
 #
 
-## 3. Loops
+### 3.
+## Loops
 
 ### In Ruby:
 
@@ -66,7 +68,8 @@ but `let` can be reassigned any time within its scope, this is the closest thing
 
 #
 
-## 4. Iteration
+### 4.
+## Iteration
 
 ### In Ruby:
 
@@ -74,7 +77,8 @@ but `let` can be reassigned any time within its scope, this is the closest thing
 
 #
 
-## 5. Methods
+### 5.
+## Methods
 
 ### In Ruby:
 
@@ -82,7 +86,8 @@ but `let` can be reassigned any time within its scope, this is the closest thing
 
 #
 
-## 6. Classes
+### 6.
+## Classes
 
 ### In Ruby:
 
