@@ -134,7 +134,7 @@ return num % 15 == 0 ? "fizzbuzz"
 and even nest them
 
 ```
-return num % 3
+return num % 3 == 0
     ? num % 5 == 0 
         ? "fizzbuzz"
         : "fizz"
