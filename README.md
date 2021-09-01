@@ -37,7 +37,9 @@ cat = 'Rufus'
 
 There are three ways of assigning variables
 
-Old style variable assignment using `var` creates a variable which is mutable and, by default, globally accessible. 
+Old style variable assignment using `var` creates a variable which is mutable and, by default, globally accessible.
+
+DON'T bother with it.
 
 ```
 var dog = 'Mable'
@@ -45,13 +47,13 @@ var dog = 'Mable'
 
 New style variable assignment uses the keywords `const` and `let` and these variables are only accesible from the scope in which they are defined.
 
-`const` can not be reassigned after is is created, try to use it unless you _need_ to do so
+`const` can not be reassigned after is is created, try to use it unless you _need_ to do otherwise.
 
 ```
 const sphereEulerCharacteristic = 2
 ```
 
-but `let` can be reassigned any time within its scope, this is the closest thing in Javascript to a plain Ruby variable
+`let`, however, can be reassigned at any time within its scope. This is the closest thing in Javascript to a plain Ruby variable
 
 ```
 let childHeight = 160
@@ -80,8 +82,19 @@ else
 end
 ```
 
-
 ### In Javascript:
+
+The conditional keywords are `if`, `else` and the phrase `else if`. There is no unless. The condition itself is in parentheses and the block to be executed is in curly brackets, like so:
+
+```
+if (itIsCold()) {
+  outerwear = "coat";
+} else if (itIsMild()) {
+  outerwear = "shacket";
+} else {
+  outerwear = "none";
+}
+```
 
 #
 
