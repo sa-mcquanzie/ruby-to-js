@@ -10,6 +10,7 @@ This is my personal reference / infodump / cheatsheet for translating the concep
     * Else
     * Else If
     * Unless
+    * Ternary
     * Case
 3. [Loops](#Loops)
     * While
@@ -66,6 +67,8 @@ let childHeight = 160
 ### 2.
 ## Conditionals
 
+### a. `if`, `else` and `elif`
+
 ### In Ruby:
 
 The conditional keywords in Ruby are `if`, `else`, `elsif`, and `unless`
@@ -81,20 +84,68 @@ else
   meal = dinner
 end
 ```
+In Ruby, unlike in Javascript, for simple cases with only one branch, you can also choose to invert the if statement, like so
+
+```
+snack if hungry_between_mealtimes
+```
+
+which is quite lovely.
 
 ### In Javascript:
 
-The conditional keywords are `if`, `else` and the phrase `else if`. There is no unless. The condition itself is in parentheses and the block to be executed is in curly brackets, like so:
+The conditional keywords are `if`, `else` and the phrase `else if`. There is no unless. The conditional is in parentheses and the clauses are in curly brackets, like so
 
 ```
 if (itIsCold()) {
-  outerwear = "coat";
+  outerwear = "coat"
 } else if (itIsMild()) {
-  outerwear = "shacket";
+  outerwear = "shacket"
 } else {
-  outerwear = "none";
+  outerwear = "none"
 }
 ```
+
+### b. Ternary Expressions
+
+The syntax for a ternary expression is identical in both languages
+
+### In Ruby:
+
+```
+material = fancy ? 'silk' : 'polyester' 
+```
+
+### In Javascript:
+
+```
+let stone = loaded ? "diamond" : "cubicZirconia"
+```
+
+Unlike in Ruby, you can go wild with ternary chaining as follows
+
+```
+return num % 15 == 0 ? "fizzbuzz"
+    : num % 3 == 0 ? "fizz"
+    : num % 5 == 0 ? "buzz"
+    : `${num}`
+```
+
+and even nest them
+
+```
+return num % 3
+    ? num % 5 == 0 
+        ? "fizzbuzz"
+        : "fizz"
+    : num % 5 == 0
+        ? "buzz"
+        : `${num}`
+```
+
+although I think you probably *shouldn't*.
+
+### c. Case / Switch statements
 
 #
 
