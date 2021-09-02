@@ -147,6 +147,41 @@ although I think you probably *shouldn't*.
 
 ### c. Case / Switch statements
 
+### In Ruby:
+
+```
+arche = case philosopher
+when 'Thales'
+  :water
+when 'Anaximenes'
+  :air
+when 'Anaximander'
+  :void
+when 'Heraclitus'
+  :flux
+else
+  :mystery
+end
+```
+
+### In Javascript:
+
+```
+switch (powerpuff) {
+  case "Blossom":
+    colour = "#ffcccc";
+    break;
+  case "Bubbles":
+    colour = "#99ccff";
+    break;
+  case 'Buttercup':
+    colour = "#bbff99";
+    break;
+  default:
+    colour = "#000000";
+}
+```
+
 #
 
 ### 3.
