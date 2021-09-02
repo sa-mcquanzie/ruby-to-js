@@ -185,9 +185,11 @@ switch (powerpuff) {
 #
 
 ### 3.
-## Loops
+## Loops 
 
 ### In Ruby:
+
+Honestly I've hardly ever used loops in Ruby beause there are so many nice iterators, but they do exist.
 
 The most super basic loop is just `loop`
 
@@ -201,6 +203,46 @@ if input == 'Y'
     print 'Penus '
   end
 end
+```
+
+Then you have `while`
+
+```
+# Pretty sure this is the method Zoom calls
+# when you ask it to mirror your video
+# or try to display more than 4 participants
+# side by side
+
+i = 2
+
+while true
+  i = i ** i ** i ** i
+  p i * "Computer says: Woooooooo!!!!"
+end
+```
+
+and its opposite `until`
+
+```
+sleep, brooklyn = false, false
+
+!sleep until brooklyn
+```
+
+And finally it has a `for` loop, which I have never used even once because as far as I can tell it does nothing which `each` can't. For the sake of completeness though...
+
+
+```
+bottles_of_beer = 99
+
+for i in (bottles_of_beer).downto(0) do
+  puts "#{bottles_of_beer} bottles of beer on the wall"
+  puts "#{bottles_of_beer} bottles of beer"
+  puts "Something something something something"
+  puts "#{bottles_of_beer} bottles of beer on the wall"
+end
+
+
 ```
 
 ### In Javascript:
