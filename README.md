@@ -189,6 +189,20 @@ switch (powerpuff) {
 
 ### In Ruby:
 
+The most super basic loop is just `loop`
+
+```
+puts "Gob's program: Y/N?"
+
+input = gets.chomp.capitalize
+
+if input == 'Y'
+  loop do
+    print 'Penus '
+  end
+end
+```
+
 ### In Javascript:
 
 #
